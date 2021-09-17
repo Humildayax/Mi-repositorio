@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="../js/peticiones.js"></script>
+    <script type="text/javascript" src="../js/greetings.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <ul class="nav nav-tabs justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="greetings.html">Saludo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-8">
+                <div class="input-group">
+                    <span class="input-group-text">Nombre</span>
+                    <input id="name" class="form-control" type="text" />
+                    <button class="btn btn-primary" type="button" onclick="greetings_fn()">Saludar</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <p id="greeting-response"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
